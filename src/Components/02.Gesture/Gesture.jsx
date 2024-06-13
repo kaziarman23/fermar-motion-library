@@ -13,32 +13,29 @@ function Gesture() {
                     text-white rounded-xl"
                     whileHover={{ scaleX: 1, scaleY: 2 }}
                 >
-                I am while Hover animetion
+                    I am while Hover animetion
                 </motion.button>
 
                 <motion.button
                     type="button"
                     className="bg-green-500 text-white p-5 rounded-xl"
-                    whileTap={{ scaleX: 0.5, scaleY:0.5 }}
+                    whileTap={{ scaleX: 0.5, scaleY: 0.5 }}
                 >
-                I am while Tap animetion
+                    I am while Tap animetion
                 </motion.button>
+
+                <motion.input
+                    placeholder="I am a While Focus animetion"
+                    whileFocus={{ scale: 1.2 }}
+                />
 
                 {/* <motion.button
-                    type="button"
-                    className="bg-orange-500 text-white p-5 rounded-xl"
-                    whileFocus={{   }}
-                >
-                I am while Focus animetion
-                </motion.button>
-
-                <motion.button
                     type="button"
                     className="bg-cyan-500 text-white p-5 rounded-xl"
                     whileDrag={{ x: 1, y: 2  }}
                 >
                 I am while Drag animetion
-                </motion.button> */}
+                </motion.button>  */}
             </div>
         </div>
     );
